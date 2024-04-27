@@ -4,11 +4,11 @@
 
 No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 
-{% hint style="info" %}
-Os oito tipos primitivos em Java são:
 
-&#x20;int, byte, short, long, float, double, boolean e char – esses tipos não são considerados objetos,  e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
-{% endhint %}
+### Os oito tipos primitivos em Java são:
+
+### &#x20;int, byte, short, long, float, double, boolean e char – esses tipos não são considerados objetos,  e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
+
 
 Tabela de Tipos Primitivos e seus valores:
 
@@ -36,11 +36,8 @@ Da mesma forma, dificilmente utilizaremos o tipo `long`, pois não é tão comum
 
 Portanto, para representar números, na grande maioria das vezes utilizaremos o tipo `int` para representar números inteiros ou `double`  para representar números fracionados.&#x20;
 
-{% hint style="info" %}
-_O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou o salário de um funcionário?**_
 
-
-{% endhint %}
+### _O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou o salário de um funcionário?**_
 
 ![Tabela criada pela minha aluna Priscilla Aniboleti - Github - Pripii](<../.gitbook/assets/image (10).png>)
 
@@ -75,15 +72,15 @@ public class TipoDados {
 }
 ```
 
-{% hint style="warning" %}
-Observe que o tipo long precisa terminar com L, o tipo float precisa terminar com F e alguns cenários do dia-a-dia podem estimular uma alteração de tipos de dados convencional.
-{% endhint %}
+
+### Observe que o tipo long precisa terminar com L, o tipo float precisa terminar com F e alguns cenários do dia-a-dia podem estimular uma alteração de tipos de dados convencional.
+
 
 Muitas das vezes criamos uma variável, definimos um valor correspondente, manipulamos esta variável e temos consciência de seu valor na aplicação. Mas cuidado !!
 
-{% hint style="warning" %}
-Java é fortemente "tipado"
-{% endhint %}
+
+### Java é fortemente "tipado"
+
 
 Veja o cenário abaixo:
 
@@ -95,9 +92,7 @@ int numeroNormal = numeroCurto;
 short numeroCurto2 = numeroNormal;
 ```
 
-{% hint style="info" %}
-Por mais que temos ciência que valor de `numeroNormal` cabe é um short, o **Java** não permite correr o risco.
-{% endhint %}
+### Por mais que temos ciência que valor de `numeroNormal` cabe é um short, o **Java** não permite correr o risco.
 
 ## Variáveis e Constantes
 
@@ -141,7 +136,6 @@ public class ExemploVariavel {
 }
 ```
 
-{% hint style="warning" %}
-Compreendemos que para declarar uma variável como uma constante, utilizamos a palavra `final`, mas por convenção, esta variável deverá ser escrita toda em caixa alta.&#x20;
-{% endhint %}
+### Compreendemos que para declarar uma variável como uma constante, utilizamos a palavra `final`, mas por convenção, esta variável deverá ser escrita toda em caixa alta.&#x20;
+
 
