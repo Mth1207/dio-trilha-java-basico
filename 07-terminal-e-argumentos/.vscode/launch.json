@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeComScanner",
+            "request": "launch",
+            "mainClass": "AboutMeComScanner",
+            "projectName": "07-terminal-e-argumentos_4b33ab45"
+        },
+        {
+            "type": "java",
             "name": "MinhaClasse",
             "request": "launch",
             "mainClass": "MinhaClasse",
